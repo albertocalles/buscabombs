@@ -1,0 +1,148 @@
+body{
+	text-align:center;
+}
+section{
+	width:950px;
+	margin:0 auto;
+}
+#controlPanel{
+	width:300px;
+	/*height:400px;*/
+	background-color:#BCF5A9;
+	/*float:left;*/
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-o-border-radius: 15px 15px 15px 15px;
+	-ms-border-radius: 15px 15px 15px 15px;
+	
+}
+#controlPanel img{
+	width:250px;
+}
+#myBoard{
+	/*width:500px;*/
+	/*height:500px;*/
+	/*background-color:gray;*/
+	/*float:left;*/
+	margin:0 auto;
+}
+footer{
+	clear:both;
+	margin-top:20px;
+}
+/********************************************FORM*/
+form label{
+	width:300px;
+}
+/********************************************FORM*/
+/*******************************************BOARD*/
+#counterBox{
+	width:300px;
+	height:60px;
+	margin: 0 auto;	
+}
+#counterBoxA{
+	width:150px;
+	height:60px;
+	/*background:red;*/
+	float:left;
+}
+#counterBoxA p{
+	margin:0px;
+}
+#scoreBomb{
+	font-size:40px;
+}
+#counterBoxB{
+	width:150px;
+	height:60px;
+	/*background:violet;*/
+	float:left;
+	text-align:center;
+}
+#newGame{
+	margin-top:5px;
+}
+#counterBoxB p{
+	margin-top:5px;
+}
+#soundButtom{
+
+}
+#winScreen{
+	width:300px;
+	height:300px;
+	background:#BE81F7;
+	position:absolute;
+	display:none;
+	filter:alpha(opacity=90);
+	opacity:0.9;
+}
+#winScreen img{
+	margin-top:10px;
+}
+h1{
+	font-size:30px;
+}
+#bigBox{
+	background-color:green;
+	float:left;
+}
+.smallBox{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-bottom:0;
+	background-image:url(../ima/square_off.png);
+}
+.smallBox:hover{
+	background-image:url(../ima/square_on.png);
+	cursor:pointer;
+}
+.sqr_off{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-bottom:0;
+}
+#scoreBox1{
+	width:100px;
+	height:100px;
+	/*background-color:blue;*/
+	float:left;
+	text-align:center;
+}
+#scoreBox2{
+	width:100px;
+	height:100px;
+	/*background-color:green;*/
+	float:left;
+	text-align:center;
+	padding-bottom:20px;
+}
+.scorePlayer{
+	width:94px;
+	height:147px;
+	background:#D8D8D8;
+	margin:3px;
+	/*border: 1px solid #000000;*/
+}
+.namePlayer{
+	margin-top:4px;
+	font-size:25px;
+	color:black;
+}
+.screenPlayer{
+	font-size:30px;
+	background-color:black;
+	color:white;
+	margin-top:80px;
+}
+#scorePlayer1{
+	background-color:#97c018;
+}
+/*******************************************BOARD*/

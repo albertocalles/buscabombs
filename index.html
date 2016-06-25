@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Test Minesweeper">
+  <meta name="keywords" content="HTML5,CSS3,JAVASCRIPT">
+  
+  <title>BuscaBombs</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/minesweeper.js"></script>
+  
+
+</head>
+
+<body>
+	<header>
+    	<h1>Welcome to BuscaBombs</h1>
+		<p>Objective: the winner will be who find more bombs. Come on!</p>
+    </header>
+	
+    <section>
+		<div id="controlPanel">
+			<img src="ima/bomb-face.png"/>
+			<p>Select number of players:</p>
+			<p>
+			 <input type="radio" name="numberPlayersOption" value="1" /> 1
+			 <input type="radio" name="numberPlayersOption" value="2" checked /> 2
+			 <input type="radio" name="numberPlayersOption" value="3" /> 3
+			 <input type="radio" name="numberPlayersOption" value="4" /> 4
+			</p>
+			<p>Select size's board:</p>
+			<p>
+			 <input type="radio" name="sizeOption" value="1" /> Small
+			 <input type="radio" name="sizeOption" value="2" checked /> Medium
+			 <input type="radio" name="sizeOption" value="3" /> Big
+			</p>
+			<button type="submit" id="play">Play</button>
+		</div>
+		<div id="myBoard">
+		</div>
+	</section>
+	
+    <footer>
+      <p><a href="http://www.albertocalles.com" target="_blank">&#169 By Alberto Calles</a></p>
+    </footer> 
+
+	<audio id="soundResource" src=""></audio>
+</body>
+
+</html>﻿
