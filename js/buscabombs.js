@@ -510,9 +510,3 @@ function colorPlayer(){
 	}
 	
 }
-
-
-
-
-
-
